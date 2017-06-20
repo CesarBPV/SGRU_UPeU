@@ -29,4 +29,8 @@ class HomeController extends Controller
     {
         return view('PermCortoForm');
     }
+    public function worship()
+    {
+        return view('Worship');
+    }
 }
