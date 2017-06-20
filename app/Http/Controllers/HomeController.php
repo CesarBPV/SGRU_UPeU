@@ -23,6 +23,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('layouts.Principal');
+        return view('home');
+    }
+    public function permcorto()
+    {
+        return view('PermCortoForm');
     }
 }

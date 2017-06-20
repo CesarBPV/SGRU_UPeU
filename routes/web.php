@@ -16,5 +16,4 @@ Route::get('/', 'HomeController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
-
-Route::get('/principal', 'HomeController@Principal');
+Route::get('/permcorto','HomeController@permcorto');
