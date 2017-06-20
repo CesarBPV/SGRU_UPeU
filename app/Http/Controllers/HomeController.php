@@ -35,11 +35,12 @@ class HomeController extends Controller
     }
     public function autpcorto()
     {
-        return view('PermCortoForm');
+        return view('AutPForm');
     }
     public function autplargo()
     {
-        return view('PermLargoForm');
+        return view('AutPForm');
+    }
     public function worship()
     {
         return view('Worship');
