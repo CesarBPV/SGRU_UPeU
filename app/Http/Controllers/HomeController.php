@@ -40,5 +40,8 @@ class HomeController extends Controller
     public function autplargo()
     {
         return view('PermLargoForm');
+    public function worship()
+    {
+        return view('Worship');
     }
 }
