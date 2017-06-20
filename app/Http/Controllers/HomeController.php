@@ -29,4 +29,16 @@ class HomeController extends Controller
     {
         return view('PermCortoForm');
     }
+    public function permlargo()
+    {
+        return view('PermLargoForm');
+    }
+    public function autpcorto()
+    {
+        return view('PermCortoForm');
+    }
+    public function autplargo()
+    {
+        return view('PermLargoForm');
+    }
 }
