@@ -69,17 +69,12 @@
                                         <li><a href="#">Solicitar Permiso Largo</a></li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                                <li><a><i class="fa fa-edit"></i> Cultos <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
-                                        <li><a href="form.html">General Form</a></li>
-                                        <li><a href="form_advanced.html">Advanced Components</a></li>
-                                        <li><a href="form_validation.html">Form Validation</a></li>
-                                        <li><a href="form_wizards.html">Form Wizard</a></li>
-                                        <li><a href="form_upload.html">Form Upload</a></li>
-                                        <li><a href="form_buttons.html">Form Buttons</a></li>
+                                        <li><a href="{{url('/worship')}}">Generar Registro</a></li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
+                                <li><a><i class="fa fa-desktop"></i> Limpieza <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
                                         <li><a href="general_elements.html">General Elements</a></li>
                                         <li><a href="media_gallery.html">Media Gallery</a></li>
@@ -278,7 +273,7 @@
         <!-- /footer content -->
     </div>
 </div>
-
+@section('scripts')
 <!-- jQuery -->
 <script src="js/jquery.min.js"></script>
 <!-- Bootstrap -->
@@ -288,6 +283,6 @@
 
 <!-- Custom Theme Scripts -->
 <script src="js/custom.min.js"></script>
-
+@show
 </body>
 </html>

@@ -17,3 +17,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/permcorto','HomeController@permcorto');
+Route::get('/worship','HomeController@worship');
